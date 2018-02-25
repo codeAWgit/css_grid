@@ -15,38 +15,28 @@ body {
 }
 
 .masthead {
-    grid-column: 2/4;
-    grid-row: 2/3;
     background-color: rgb(80, 80, 124);
     grid-area: header;
     text-align: center;    
 }
 
 .page-title {
-    grid-column: 1/4;
-    grid-row: 1/2;
     background-color: rgb(80, 124, 91);
     grid-area: title; 
     text-align: center;   
 }
 
 .main-content {
-    grid-column: 1/2;
-    grid-row: 2/4;
     background-color: rgb(228, 93, 84);
     grid-area: main;
 }
 
 .sidebar {
-    grid-column: 2/3;
-    grid-row: 3/4;
     background-color: rgb(194, 194, 216);
     grid-area: sidebar;
 }
 
 .footer {
-    grid-column: 3/4;
-    grid-row: 3/4;
     background-color: rgba(255, 249, 172, 0.979);
     grid-area: footer;
 }
